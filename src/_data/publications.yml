@@ -1,0 +1,147 @@
+# ─────────────────────────────────────────────────────────────
+#  PUBLICATIONS — shown on the Publications & CV page, newest first.
+#  The newest few also appear on the home page.
+#
+#  To ADD a paper, copy this template to the TOP of the list:
+#
+#  - year: 2026
+#    authors: "Lastname, A., B. Lastname, and A. Senghas"
+#    title: "Title of the paper"
+#    venue: "Journal Name, volume(issue), pages"
+#    pdf: "lastname2026.pdf"     # put the PDF in src/assets/files/papers/
+#    doi: "10.xxxx/xxxxx"        # optional
+#    url: "https://..."          # optional link to the journal page
+#
+#  year can also be text like "In press".
+#  type: talk   → listed under "Talks & posters" instead.
+# ─────────────────────────────────────────────────────────────
+
+- year: 2020
+  authors: "Senghas, A."
+  title: "Connecting language acquisition and language evolution: Clues from the emergence of Nicaraguan Sign Language"
+  venue: "Minnesota Symposia on Child Psychology"
+
+- year: 2016
+  authors: "Rissman, L., L. Horton, M. Flaherty, M. Coppola, A. Senghas, D. Brentari, and S. Goldin-Meadow"
+  title: "Strategies in gesture and sign for demoting an agent: Effects of language community and input"
+  venue: "The Evolution of Language: Proceedings of the 11th International Conference (EVOLANG11)"
+  url: "http://evolang.org/neworleans/papers/158.html"
+
+- year: "In press"
+  authors: "Brentari, D., M. Coppola, and A. Senghas"
+  title: "Handshape complexity as a precursor to phonology: Evidence from acquisition and conventionalization in mature and emerging sign languages"
+  venue: "Language Acquisition"
+
+- year: 2015
+  authors: "Horton, L., S. Goldin-Meadow, M. Coppola, A. Senghas, and D. Brentari"
+  title: "Forging a morphological system out of two dimensions: Agentivity and number"
+  venue: "Open Linguistics"
+  doi: "10.1515/opli-2015-0021"
+
+- year: 2015
+  authors: "Kocab, A., J. E. Pyers, and A. Senghas"
+  title: "Referential shift in Nicaraguan Sign Language: A transition from lexical to spatial devices"
+  venue: "Frontiers in Psychology, 5:1540"
+  doi: "10.3389/fpsyg.2014.01540"
+
+- year: 2014
+  authors: "Goldin-Meadow, S., D. Brentari, M. Coppola, L. Horton, and A. Senghas"
+  title: "Watching language grow in the manual modality: Nominals, predicates, and handshapes"
+  venue: "Cognition"
+  doi: "10.1016/j.cognition.2014.11.029"
+
+- year: 2012
+  authors: "Rabagliati, H., A. Senghas, S. Johnson, and G. F. Marcus"
+  title: "Infant rule learning: Advantage language, or advantage speech?"
+  venue: "PLoS ONE, 7(7), e40517"
+  doi: "10.1371/journal.pone.0040517"
+
+- year: 2011
+  authors: "Flaherty, M., and A. Senghas"
+  title: "Numerosity and number signs in deaf Nicaraguan adults"
+  venue: "Cognition, 121, 427–436"
+
+- year: 2010
+  authors: "Senghas, A."
+  title: "The emergence of two functions for spatial devices in Nicaraguan Sign Language"
+  venue: "Human Development, 53, 287–302"
+
+- year: 2010
+  authors: "Pyers, J. E., A. Shusterman, A. Senghas, E. Spelke, and K. Emmorey"
+  title: "Spatial language supports spatial cognition: Evidence from learners of an emerging sign language"
+  venue: "Proceedings of the National Academy of Sciences, 107(27), 12116–12120"
+
+- year: 2009
+  authors: "Pyers, J., and A. Senghas"
+  title: "Language promotes false-belief understanding: Evidence from a new sign language"
+  venue: "Psychological Science, 20(7), 805–812"
+
+- year: 2007
+  authors: "Pyers, J. E., and A. Senghas"
+  title: "Reported action in Nicaraguan and American Sign Languages: Emerging versus established systems"
+  venue: "In P. Perniss, R. Pfau, and M. Steinbach (Eds.), Visible Variation: Comparative Studies on Sign Language Structure. Berlin: Mouton de Gruyter"
+
+- year: 2005
+  authors: "Senghas, A."
+  title: "Language emergence: Clues from a new Bedouin sign language"
+  venue: "Current Biology, 15(12), 463–465"
+
+- year: 2005
+  authors: "Senghas, A., S. Kita, and A. Özyürek"
+  title: "Linguaggio e evoluzione: I bambini sordi del Nicaragua mostrano come nasce una lingua"
+  venue: "Darwin, 2(8), 88–96 (Italian translation of Senghas et al. 2004, with additional text and graphics)"
+
+- year: 2005
+  authors: "Senghas, A., A. Özyürek, and S. Kita"
+  title: "Language emergence in vitro or in vivo? Response to comment on “Children creating core properties of language”"
+  venue: "Science, 309(5731), 56"
+
+- year: 2004
+  authors: "Senghas, A., S. Kita, and A. Özyürek"
+  title: "Children creating core properties of language: Evidence from an emerging sign language in Nicaragua"
+  venue: "Science, 305(5691), 1779–1782"
+
+- year: 2003
+  authors: "Senghas, A."
+  title: "Intergenerational influence and ontogenetic development in the emergence of spatial grammar in Nicaraguan Sign Language"
+  venue: "Cognitive Development, 18, 511–531"
+
+- year: 2001
+  authors: "Saffran, J. R., A. Senghas, and J. C. Trueswell"
+  title: "The acquisition of language by children"
+  venue: "Proceedings of the National Academy of Sciences, 98(23), 12874–12875"
+
+- year: 2001
+  authors: "Senghas, A."
+  title: "Spatial and temporal coding of Nicaraguan Sign Language in MediaTagger: Documenting three dimensions with a two-dimensional tool"
+  venue: "Sign Language and Linguistics, 4(1/2), 229–240"
+
+- year: 2001
+  authors: "Senghas, A., and M. Coppola"
+  title: "Children creating language: How Nicaraguan Sign Language acquired a spatial grammar"
+  venue: "Psychological Science, 12(4), 323–328"
+
+# ── Talks & posters ──────────────────────────────────────────
+- year: 2016
+  type: talk
+  authors: "Pyers, J., A. Senghas, E. Plançon, C. Zola, and N. Reynoso"
+  title: "The differential role of iconicity in the creation and maintenance of an emerging sign language lexicon"
+  venue: "Poster, Linguistic Society of America Annual Meeting, Washington, DC"
+
+- year: 2012
+  type: talk
+  authors: "Martin, A., A. Senghas, and C. Padden"
+  title: "Gestural origins of nouns in sign languages"
+  venue: "Fifth Congress of the International Society for Gesture Studies (ISGS5), Lund, Sweden"
+
+- year: 2008
+  type: talk
+  authors: "Senghas, A., and S. Katseff"
+  title: "Competing forces behind the form of Nicaraguan Sign Language number signs"
+  venue: "SignTyp Conference, University of Connecticut"
+
+- year: 2004
+  type: talk
+  authors: "Katseff, S., and A. Senghas"
+  title: "Effects of acquisition on the Nicaraguan Sign Language number lexicon"
+  venue: "29th Boston University Conference on Language Development (BUCLD 29)"

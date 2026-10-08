@@ -1,0 +1,40 @@
+---
+layout: base.njk
+pagination:
+  data: projects
+  size: 1
+  alias: project
+permalink: "/research/{{ project.slug }}/"
+eleventyComputed:
+  title: "{{ project.title }}"
+  description: "{{ project.summary }}"
+---
+<p class="crumb"><a href="/research/">Research</a></p>
+<header class="page-head">
+  <h1>{{ project.title }}</h1>
+  {% if project.team %}<p class="team">{{ project.team }}</p>{% endif %}
+</header>
+
+<div class="project-layout">
+  <div class="prose">
+    {{ project.body | md | safe }}
+
+    {% if project.publications %}
+    <h2>Project publications</h2>
+    <ul class="pub-list plain">
+      {% for c in project.publications %}<li class="pub">{{ c }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% if project.images %}
+  <div class="project-figs">
+    {% for i in project.images %}<figure><img src="{{ i | img }}" alt="Figure from the {{ project.title }} project" loading="lazy" onerror="this.remove()"></figure>{% endfor %}
+  </div>
+  {% endif %}
+</div>
+
+{% set others = projects | where("status", "current") | whereNot("slug", project.slug) %}
+<nav class="other-projects" aria-label="Other projects">
+  <h2>Other projects</h2>
+  <ul>{% for o in others %}<li><a href="/research/{{ o.slug }}/">{{ o.title }}</a></li>{% endfor %}</ul>
+</nav>

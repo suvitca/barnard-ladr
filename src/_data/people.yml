@@ -1,0 +1,146 @@
+# ─────────────────────────────────────────────────────────────
+#  LAB PEOPLE
+#
+#  group:  current | former | collaborator
+#
+#  To ADD someone: copy an existing block (from "- name:" down to the
+#  next "- name:"), paste it, and change the details.
+#  To MOVE someone to former members: change "group: current" to
+#  "group: former" and add their years, e.g. years: "2021–2025".
+#  To REMOVE someone: delete their block.
+#
+#  photo: a file name in src/assets/img/ (square-ish photos look best).
+#         Leave it out and the site shows their initials instead.
+#  Everything except name and group is optional.
+# ─────────────────────────────────────────────────────────────
+
+# ── Current lab members ──────────────────────────────────────
+- name: "Ann Senghas, Ph.D."
+  group: current
+  role: "Principal Investigator"
+  photo: "senghas-forweb.jpg"
+  email: "asenghas@barnard.edu"
+  links:
+    - { label: "Barnard profile", url: "https://barnard.edu/profiles/ann-senghas" }
+  cv: true   # shows a "Download CV" link (uses the CV set in site.yml)
+  summary: >-
+    Claire Tow Professor of Psychology at Barnard College, director of the
+    Program in Cognitive Science, and director of the LADR Lab.
+  bio: >-
+    Ann Senghas's work examines the ways in which language users create
+    ordered systems from disordered input and how this ability develops over
+    the lifespan. Her research focuses on the emergence of grammatical
+    structure in a new sign language created by deaf children and adolescents
+    in Nicaragua over the past four decades. Through this work, she strives to
+    capture the nature of language at its origin, and the interplay between
+    human cognition, human social experience, and language creation.
+
+
+    Senghas earned her PhD in brain and cognitive sciences in 1995 from the
+    Massachusetts Institute of Technology. She was a postdoctoral fellow at the
+    University of Rochester's Sign Language Research Center and a research
+    staff member at the Max Planck Institute for Psycholinguistics in the
+    Netherlands. Her research has been supported by the National Institutes of
+    Health since 2002. She was a National Academy of Sciences Kavli Frontiers
+    of Science participant and is a fellow of the Association for
+    Psychological Science.
+
+- name: "Ezra Plançon, M.A."
+  group: current
+  role: "Lab Manager"
+  photo: "plancon-forweb.jpg"
+  email: "eplancon@barnard.edu"
+  summary: >-
+    Joined the lab as manager in 2015. BS in English Education from NYU and
+    MA in Deaf Studies from Gallaudet University.
+  bio: >-
+    His background with multimodal teaching approaches has framed his graduate
+    research on literacy, language acquisition, and language socialization
+    among the deaf community. He has presented work with the Center for
+    Research on Language at UC San Diego, and his research has been funded by
+    Gallaudet University and Visual Language and Visual Learning (VL2), a
+    National Science Foundation Science of Learning Center. His graduate work
+    focused on emoji use in text messages among deaf youth.
+
+- name: "Amber Martin, Ph.D."
+  group: current
+  role: "Postdoctoral Fellow"
+  photo: "ambershortbio.jpg"
+  email: "amartin@barnard.edu"
+  links:
+    - { label: "Hunter College", url: "http://www.hunter.cuny.edu/psychology/faculty/cognitive-psychology/martin" }
+  summary: >-
+    Assistant Professor at Hunter College and a postdoctoral fellow in the
+    LADR Lab since 2009.
+  bio: >-
+    A Deaf Minnesota native, Amber Martin received her B.S. in Child Psychology
+    from the University of Minnesota in 2000 and her Ph.D. from the University
+    of Minnesota's Institute of Child Development in 2009. Her research asks
+    how the age of language acquisition affects the relations between language
+    and cognition — comparing typical acquisition with early language
+    deprivation, and comparing the spatial cognitive skills (like mental
+    rotation) of signers and non-signers.
+
+- name: "Caroline Zola"
+  group: current
+  role: "Undergraduate Research Assistant"
+  photo: "carolineshortbio2.jpg"
+  email: "cez2109@barnard.edu"
+  summary: >-
+    Barnard College '17, majoring in Linguistics and minoring in Anthropology.
+  bio: >-
+    Caroline is interested in sociolinguistics, language change, sign
+    languages and Deaf culture. She was a Summer Research Institute scholar in
+    2015, working on the Iconicity and Spatial Language and Cognition projects.
+
+- name: "Charlotte Quincoses"
+  group: current
+  role: "Undergraduate Research Assistant"
+  photo: "charlotteshortbio.jpg"
+  email: "cq2174@barnard.edu"
+  summary: >-
+    Barnard College '18, studying psychology, with an interest in how mental
+    illness affects teen development, especially among Latin American
+    populations.
+
+# ── Former lab members (newest first) ────────────────────────
+- { name: "Jessica Nadel", group: former, role: "Lab Manager", years: "2013–2015", photo: "nadel-forweb.jpg", now: "Barnard '13; then a PhD student in Clinical Psychology at LIU Brooklyn." }
+- { name: "Claudia Ortuno", group: former, role: "Radcliffe Institute Research Partner", years: "2014–2015", photo: "claudia-forweb.jpg", now: "Harvard College '16; worked with Dr. Senghas during her Radcliffe Fellowship year." }
+- { name: "Illan Gonen", group: former, role: "Graduate Research Assistant", years: "2013–2014", photo: "gonen-forweb.jpg", now: "PhD student in Semitic Linguistics, University of Cambridge." }
+- { name: "Krizia Lopez", group: former, role: "Undergraduate Research Assistant", years: "2010–2013", photo: "lopez-forweb.jpg", now: "Columbia College '13; Fulbright Fellow in Nicaragua; then Google." }
+- { name: "Sheeva Abolhassani", group: former, role: "Graduate Research Assistant", years: "2010–2012", photo: "abolhassani-forweb.jpg", now: "M.S. in Speech Language Pathology, Columbia University." }
+- { name: "Annemarie Kocab", group: former, role: "Lab Manager", years: "2010–2012", photo: "kocab-forweb.jpg", now: "Went on to a PhD in Psychology at Harvard University." }
+- { name: "Geoff Zoehfeld", group: former, role: "Undergraduate Research Assistant", years: "2011–2012", photo: "zoehfeld-forweb.jpg", now: "B.S. Applied Mathematics, Columbia '12; graduate study at San Jose State." }
+- { name: "Blair Sinsimer", group: former, role: "Undergraduate Research Assistant", years: "2009–2011", photo: "sinsimer-forweb.jpg", now: "Barnard '11, Art History." }
+- { name: "Sara Maria Hasbun", group: former, role: "Lab Manager", years: "2008–2010", photo: "hasbun-forweb.jpg", now: "Translator and director at Meridian Linguistics." }
+- { name: "Emory Davis", group: former, role: "Undergraduate Research Assistant", years: "2006–2007", photo: "davis-forweb.jpg", now: "Went on to a PhD in Cognitive Science at Johns Hopkins." }
+- { name: "Molly Flaherty", group: former, role: "Lab Manager", years: "2004–2006", photo: "flaherty-forweb.jpg", now: "PhD, University of Chicago." }
+- { name: "Marisol Santos", group: former, role: "Undergraduate Lab Assistant", years: "2003–2005", photo: "santos-forweb.jpg", now: "NYU, Education; supported correspondence with Nicaraguan participants." }
+- { name: "Alina Engelman", group: former, role: "Undergraduate Research Assistant", years: "2003–2004", photo: "engelman-forweb.jpg", now: "Assistant Professor of Health Sciences, Cal State East Bay." }
+- { name: "Shira Hahn", group: former, role: "Lab Manager", years: "2002–2004", photo: "Hahn-forweb.jpg", now: "PhD in Linguistics, UC Berkeley; hearing-aid research at GN ReSound." }
+- { name: "Jennie Pyers", group: former, role: "Visiting Doctoral Candidate", years: "2001–2003", photo: "pyers-forweb.jpg", now: "Professor of Psychology, Wellesley College." }
+- { name: "Sarah Littman", group: former, role: "Undergraduate Research Assistant", years: "2001–2003", photo: "littman-forweb.jpg", now: "Barnard '03; PhD study in Bilingual School Psychology at Fordham." }
+- { name: "Elizabeth Housman", group: former, role: "Undergraduate Research Assistant", years: "2001–2003", photo: "HousmanElizabeth-forweb.jpg", now: "Barnard '03; internist and medical educator." }
+- { name: "Sarah Housman", group: former, role: "Undergraduate Research Assistant", years: "2001–2003", photo: "HousmanSarah-forweb.jpg", now: "Barnard '03; internal medicine, Beth Israel Deaconess." }
+- { name: "Penny Shima Glanz", group: former, role: "Undergraduate Research Assistant", years: "1999–2001", photo: "Shima-Glanz.jpg", now: "Barnard '01; M.S. Information and Archive Management, Columbia." }
+
+# ── Collaborators ────────────────────────────────────────────
+- { name: "Jennie Pyers", group: collaborator, role: "Wellesley College", photo: "pyers-forweb.jpg", url: "http://academics.wellesley.edu/Psychology/Pyers/index.html" }
+- { name: "Carol Padden", group: collaborator, role: "UC San Diego", photo: "padden-forweb.jpg", url: "http://crl.ucsd.edu/paddenlab/" }
+- { name: "Marie Coppola", group: collaborator, role: "University of Connecticut", photo: "coppola-forweb.jpg", url: "http://languagecreationlab.uconn.edu/" }
+- { name: "Diane Brentari", group: collaborator, role: "University of Chicago", photo: "brentari-forweb.jpg", url: "http://signlanguagelab.uchicago.edu/" }
+- { name: "Susan Goldin-Meadow", group: collaborator, role: "University of Chicago", photo: "sgm-forweb.jpg", url: "https://goldin-meadow-lab.uchicago.edu/" }
+- { name: "Molly Flaherty", group: collaborator, role: "University of Chicago", photo: "flaherty-forweb.jpg" }
+- { name: "Jesse Snedeker", group: collaborator, role: "Harvard University", photo: "snedeker-forweb.jpg" }
+- { name: "Annemarie Kocab", group: collaborator, role: "Harvard University", photo: "kocab-forweb.jpg" }
+- { name: "Koleen McCrink", group: collaborator, role: "Barnard College", photo: "mccrink-forweb.jpg", url: "http://www.barnardbaby.com/" }
+- { name: "Richard Senghas", group: collaborator, role: "Sonoma State University", photo: "richardsenghas-forweb.jpg", url: "https://www.sonoma.edu/anthropology/full-time/senghas.html" }
+- { name: "Judy Shepard-Kegl", group: collaborator, role: "University of Southern Maine", photo: "kegl-forweb.jpg" }
+- { name: "Lila R. Gleitman", group: collaborator, role: "University of Pennsylvania", photo: "gleitman-forweb.jpg" }
+- { name: "Anna Shusterman", group: collaborator, role: "Wesleyan University", photo: "shusterman-forweb.jpg", url: "http://cogdev.research.wesleyan.edu/" }
+- { name: "Elizabeth Spelke", group: collaborator, role: "Harvard University", photo: "spelke-forweb.jpg" }
+- { name: "Karen Emmorey", group: collaborator, role: "San Diego State University", photo: "emmorey-forweb.jpg", url: "http://emmoreylab.sdsu.edu/" }
+- { name: "Asli Özyürek", group: collaborator, role: "Max Planck Institute for Psycholinguistics", photo: "ozyurek-forweb.jpg" }
+- { name: "Sotaro Kita", group: collaborator, role: "University of Warwick", photo: "kita-forweb.jpg" }
+- { name: "Elissa Newport", group: collaborator, role: "Georgetown University", photo: "newport-forweb.jpg" }
+- { name: "Ted Supalla", group: collaborator, role: "Georgetown University", photo: "supalla-forweb.jpg" }

@@ -1,0 +1,68 @@
+---
+layout: base.njk
+title: People
+description: Current and former members of the Barnard LADR Lab, and our collaborators.
+---
+{% from "macros.njk" import photo %}
+<header class="page-head">
+  <h1>People</h1>
+  <p class="lede">The lab brings together Barnard and Columbia undergraduates, staff, postdoctoral researchers, and collaborators around the world.</p>
+  <ul class="jump">
+    <li><a href="#current">Current members</a></li>
+    <li><a href="#former">Former members</a></li>
+    <li><a href="#collaborators">Collaborators</a></li>
+  </ul>
+</header>
+
+<section id="current">
+  <h2>Current lab members</h2>
+  <div class="people-grid">
+  {% for p in people | where("group", "current") %}
+    <article class="person">
+      {{ photo(p.photo, p.name) }}
+      <h3>{{ p.name }}</h3>
+      <p class="role">{{ p.role }}</p>
+      {% if p.summary %}<p>{{ p.summary }}</p>{% endif %}
+      <p class="person-links">
+        {%- if p.email %}<a href="mailto:{{ p.email }}">Email</a>{% endif %}
+        {%- if p.cv %}<a href="{{ site.cv | file }}">CV</a>{% endif %}
+        {%- for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+      </p>
+      {% if p.bio %}
+      <details>
+        <summary>Full bio</summary>
+        {{ p.bio | md | safe }}
+      </details>
+      {% endif %}
+    </article>
+  {% endfor %}
+  </div>
+</section>
+
+<section id="former">
+  <h2>Former lab members</h2>
+  <div class="alumni-grid">
+  {% for p in people | where("group", "former") %}
+    <article class="alum">
+      {{ photo(p.photo, p.name, "small") }}
+      <div>
+        <h3>{{ p.name }}</h3>
+        <p class="role">{{ p.role }}{% if p.years %}, {{ p.years }}{% endif %}</p>
+        {% if p.now %}<p>{{ p.now }}</p>{% endif %}
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+</section>
+
+<section id="collaborators">
+  <h2>Collaborators</h2>
+  <ul class="collab-list">
+  {% for p in people | where("group", "collaborator") %}
+    <li>
+      {{ photo(p.photo, p.name, "tiny") }}
+      <span>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}<br><small>{{ p.role }}</small></span>
+    </li>
+  {% endfor %}
+  </ul>
+</section>

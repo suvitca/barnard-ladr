@@ -1,0 +1,44 @@
+---
+layout: base.njk
+title: Publications & CV
+description: Publications from the Barnard LADR Lab and Ann Senghas's CV.
+---
+{% from "macros.njk" import pub %}
+<header class="page-head">
+  <h1>Publications &amp; CV</h1>
+  <p class="lede">Papers are listed newest first. Where a PDF is available, you can download it directly. For a copy of anything not posted here, email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+</header>
+
+<div class="cv-banner">
+  <div>
+    <h2>Curriculum vitae</h2>
+    <p>Ann Senghas, Ph.D. Updated {{ site.cv_updated }}.</p>
+  </div>
+  <a class="button" href="{{ site.cv | file }}">Download CV (PDF)</a>
+</div>
+
+<div class="pub-tools">
+  <label for="pub-search">Search publications</label>
+  <input id="pub-search" type="search" placeholder="Author, title, journal or year" autocomplete="off">
+  <p class="pub-count" aria-live="polite"></p>
+</div>
+
+<section class="pub-section">
+  <h2>Articles and chapters</h2>
+  {% for g in publications | whereNot("type", "talk") | groupByYear %}
+  <div class="year-group">
+    <h3 class="year">{{ g.year }}</h3>
+    <ul class="pub-list">{% for p in g.items %}{{ pub(p) }}{% endfor %}</ul>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="pub-section">
+  <h2>Talks and posters</h2>
+  {% for g in publications | where("type", "talk") | groupByYear %}
+  <div class="year-group">
+    <h3 class="year">{{ g.year }}</h3>
+    <ul class="pub-list">{% for p in g.items %}{{ pub(p) }}{% endfor %}</ul>
+  </div>
+  {% endfor %}
+</section>

@@ -1,0 +1,24 @@
+---
+layout: base.njk
+title: In the News
+description: Press coverage of the Barnard LADR Lab's research.
+---
+{% from "macros.njk" import photo %}
+<header class="page-head">
+  <h1>In the news</h1>
+  <p class="lede">Coverage of our research on Nicaraguan Sign Language in print, radio, and online.</p>
+</header>
+
+<ul class="news-list">
+{% for n in news %}
+  <li>
+    <a href="{{ n.url }}">
+      <div class="news-thumb">{% if n.image %}<img src="{{ n.image | img }}" alt="" loading="lazy" onerror="this.remove()">{% endif %}<span>{{ n.outlet }}</span></div>
+      <div>
+        <p class="news-meta">{{ n.outlet }}, {{ n.year }}</p>
+        <h2>{{ n.title }}</h2>
+      </div>
+    </a>
+  </li>
+{% endfor %}
+</ul>

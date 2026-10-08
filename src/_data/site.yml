@@ -1,0 +1,52 @@
+# ─────────────────────────────────────────────────────────────
+#  Site-wide settings. Edit text between the quotes and save.
+# ─────────────────────────────────────────────────────────────
+
+short_name: "Barnard LADR"
+name: "Language Acquisition and Development Research Laboratory"
+institution: "Barnard College, Columbia University"
+
+tagline: >-
+  We study the abilities that make children such powerful language learners,
+  by watching a new language take shape: Nicaraguan Sign Language.
+
+# The PI's CV. To update: put the new PDF in src/assets/files/ and change the
+# file name below. (Until then it links to the copy on the old site.)
+cv: "Senghas_CVJan2016.pdf"
+cv_updated: "January 2016"
+
+email: "asenghas@barnard.edu"
+phone: "212-854-0115"
+videophone: "646-350-2897"
+address:
+  - "Department of Psychology"
+  - "Barnard College, Milbank Hall 013"
+  - "3009 Broadway"
+  - "New York, NY 10027"
+
+funding: >-
+  We are grateful to have been supported by the National Institutes of Health
+  (NIDCD) since 2002.
+
+# Large photo at the top of the home page (file name in src/assets/img/)
+hero_image: "kidsonslide-forthemeblue3MishaTulek.jpg"
+hero_credit: "Photo: Misha Tulek"
+
+# Numbers shown on the home page
+facts:
+  - number: "40+"
+    label: "years since Nicaraguan Sign Language began to emerge"
+  - number: "1,500+"
+    label: "deaf children and adults who use it"
+  - number: "2002"
+    label: "NIH-funded since"
+
+# Sidebar menu. Order here = order on the site.
+nav:
+  - { title: "Home", url: "/" }
+  - { title: "About NSL", url: "/about-nsl/" }
+  - { title: "Research", url: "/research/" }
+  - { title: "People", url: "/people/" }
+  - { title: "Publications & CV", url: "/publications/" }
+  - { title: "In the News", url: "/news/" }
+  - { title: "For Students", url: "/for-students/" }

@@ -1,0 +1,64 @@
+---
+layout: base.njk
+title: Home
+---
+{% from "macros.njk" import projectTile, pub %}
+
+<section class="hero">
+  <figure class="hero-img">
+    <img src="{{ site.hero_image | img }}" alt="Children playing on a slide at a school in Nicaragua" onerror="this.remove()">
+    <figcaption>{{ site.hero_credit }}</figcaption>
+  </figure>
+  <div class="hero-text">
+    <h1>{{ site.name }}</h1>
+    <p class="lede">{{ site.tagline }}</p>
+  </div>
+</section>
+
+<nav class="doorways" aria-label="Quick links">
+  <a href="/research/"><strong>Our research</strong><span>Projects on how a new language grows and what it does for the mind.</span></a>
+  <a href="/people/"><strong>People</strong><span>Current lab members, alumni, and collaborators.</span></a>
+  <a href="/publications/"><strong>Papers and CV</strong><span>Download recent papers and Dr. Senghas's current CV.</span></a>
+  <a href="/for-students/"><strong>Join the lab</strong><span>How Barnard and Columbia students can get involved.</span></a>
+</nav>
+
+<section class="split">
+  <div class="prose">
+    <h2>About the lab</h2>
+    <p>Welcome to the Language Acquisition and Development Research Laboratory at Barnard College of Columbia University.</p>
+    <p>We study the powerful abilities that make children so adept at learning language. What is the nature of these abilities? What role do they play in the creation of new languages, and in language change over generations? How do they interact with other cognitive abilities? We approach these questions by studying Nicaraguan Sign Language, created over the past four decades by a new generation of deaf children and adolescents.</p>
+    <p><a class="more" href="/about-nsl/">How Nicaraguan Sign Language began</a></p>
+  </div>
+  <dl class="facts">
+    {% for f in site.facts %}
+    <div><dt>{{ f.number }}</dt><dd>{{ f.label }}</dd></div>
+    {% endfor %}
+  </dl>
+</section>
+
+<section>
+  <div class="section-head">
+    <h2>Current projects</h2>
+    <a class="more" href="/research/">All projects</a>
+  </div>
+  <div class="project-grid">
+    {% for p in projects | where("status", "current") | limit(3) %}{{ projectTile(p) }}{% endfor %}
+  </div>
+</section>
+
+<section class="split split-pubs">
+  <div>
+    <div class="section-head">
+      <h2>Recent publications</h2>
+      <a class="more" href="/publications/">All publications</a>
+    </div>
+    <ul class="pub-list">
+      {% for p in publications | whereNot("type", "talk") | byYearDesc | limit(4) %}{{ pub(p) }}{% endfor %}
+    </ul>
+  </div>
+  <aside class="cv-card">
+    <h3>Curriculum vitae</h3>
+    <p>Ann Senghas, Ph.D.<br>Updated {{ site.cv_updated }}</p>
+    <a class="button" href="{{ site.cv | file }}">Download CV (PDF)</a>
+  </aside>
+</section>

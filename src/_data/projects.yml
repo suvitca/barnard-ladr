@@ -1,0 +1,119 @@
+# ─────────────────────────────────────────────────────────────
+#  RESEARCH PROJECTS — each one becomes a tile on the Research page
+#  and its own page at /research/<slug>/
+#
+#  slug:     short web address, lowercase-with-dashes, must be unique
+#  status:   current | past   (past projects are listed below current ones)
+#  image:    tile picture, a file name in src/assets/img/
+#  body:     the full description. Leave a blank line between paragraphs.
+#  publications: plain citations, one per line starting with "- "
+#
+#  To ADD a project: copy a block, give it a new slug, edit.
+#  To RETIRE one: change status to past (or delete the block).
+# ─────────────────────────────────────────────────────────────
+
+- slug: spatial-cognition
+  title: "Spatial Language and Cognition"
+  status: current
+  image: "spatiallanguage.jpg"
+  team: "Led by Amber Martin"
+  summary: >-
+    Does learning a three-dimensional language change how people think about
+    space — for example, how well they imagine objects rotating?
+  images: ["project-spatiallanguage2.jpg", "project-spatiallanguage.jpg"]
+  body: |
+    This project explores how language systems and cognitive systems interact. How do the spatial aspects of sign language reflect the way humans think about space? And how might learning and using a three-dimensional language affect that thinking? Are there aspects of sign language that make us better able to perform spatial operations, like imagining things rotating in space? We are particularly interested in how this interaction develops and changes over the lifespan.
+
+    The project stems from Amber Martin's dissertation study of mental rotation in adult users of American Sign Language. She found that people who learned ASL when they were very young are more accurate than non-signers at detecting differences between pictures rotated to different degrees. Now we are examining how mental rotation skills develop, and whether the specific spatial devices in a language influence the three-dimensional mental rotation skills of its users.
+
+    The project also examines the direction of these effects in children learning sign language at various ages. Must children develop sufficient non-linguistic mental rotation skills before they can master spatial linguistic devices? Or does learning a sign language facilitate the development of nonlinguistic mental rotation skills?
+
+- slug: object-signs
+  title: "Phonology of NSL Signs for Objects and Tools"
+  status: current
+  image: "cpohforweb.jpg"
+  team: "In collaboration with Carol Padden, UC San Diego"
+  summary: >-
+    What happens when gestures for holding and describing objects become the
+    raw material for new signs?
+  images: ["project-objhandling.jpg"]
+  body: |
+    Carol Padden, Professor of Communication at UC San Diego, has been documenting the variety in sign languages around the world by collecting signs for everyday objects, like tools and clothing. She examines the handshapes used in these signs to discover the phonological principles that underlie language creation.
+
+    In a new language like Nicaraguan Sign Language, we are particularly interested in the relationship between signs and the gestures people use when they describe objects. Some gestures show how objects are held or manipulated; others show an object's size or shape. What happens when these kinds of gestures serve as the raw materials for new signs? What patterns show up in NSL, and how do they compare with older sign languages around the world?
+  publications:
+    - "Martin, A., A. Senghas, and C. Padden (2012). Gestural origins of nouns in sign languages. Fifth Congress of the International Society for Gesture Studies (ISGS5), Lund, Sweden."
+
+- slug: wh-questions
+  title: "Facial Markers in Questions"
+  status: current
+  image: "whq-forweb.jpg"
+  team: "In collaboration with Annemarie Kocab and Jennie Pyers"
+  summary: >-
+    How do facial expressions become grammar? Tracing how NSL signers come to
+    mark who/what/where questions with the face.
+  images: ["project-whquestions.jpg"]
+  body: |
+    Sign languages typically use facial expressions, called nonmanual markers, to convey grammatical information. Wh-questions (who, what, when, where, how, why) are usually marked with an eyebrow movement. Prior research suggests these markers originate in the facial expressions used by speakers of the surrounding spoken language (Janzen & Shaffer, 2002; McClave, 2001).
+
+    This project investigates how and when nonmanual markers for questions entered NSL and became conventional across the community, and the different roles of adults and children in that process. We compare questions signed by an older cohort, who created NSL as children in the 1970s, with those of a younger cohort who learned it from them in the 1980s.
+
+    So far, results show several candidate markers at first: the older cohort uses a variety of facial gestures involving the brow, nose, and chin. The younger cohort produces more facial gestures overall but favors some features over others — and not necessarily the ones most frequent in their input. Systematization of this convention appears to still be underway.
+
+- slug: referential-shift
+  title: "Referential Shift in NSL"
+  status: current
+  image: "argstruc-forweb-box.png"
+  team: "In collaboration with Annemarie Kocab"
+  summary: >-
+    How a new language develops ways to mark who did what to whom — moving
+    from words to the use of space.
+  images: ["referentialshift_figure1.png", "referentialshift_figure2.png", "referentialshift_figure3.png", "referentialshift_figure4.png"]
+  body: |
+    Every language needs a way to indicate who does what to whom. English uses word order: *The man bites the dog* differs from *The dog bites the man* only in the roles of the participants. Sign languages typically use space, associating participants with locations in the signing space and pointing back to those locations to refer to them.
+
+    This project explores how Nicaraguan Sign Language indicates the agent of a verb, and how devices for shifting reference from one agent to another within a narrative have emerged over four decades. The earliest devices were lexical — inserting a sign like OTHER, or naming the new agent (MAN, DOG). Later, and increasingly, signers use the three-dimensional signing space, including points and shifts of the body to one side.
+  publications:
+    - "Kocab, A., J. E. Pyers, and A. Senghas (2015). Referential shift in Nicaraguan Sign Language: A transition from lexical to spatial devices. Frontiers in Psychology, 5:1540."
+    - "Pyers, J. E., and A. Senghas (2007). Reported action in Nicaraguan and American Sign Languages: Emerging versus established systems. In Perniss, Pfau & Steinbach (Eds.), Visible Variation. Mouton de Gruyter."
+
+- slug: iconicity
+  title: "Iconicity in NSL Signs"
+  status: current
+  image: "xlingpicture.jpg"
+  team: "In collaboration with Jennie Pyers, Wellesley College"
+  summary: >-
+    Signs often resemble what they mean. Does that help a language get
+    started, or help children learn it — and how does it change over
+    generations?
+  images: ["iconicityinnslphoto.png"]
+  body: |
+    Do the learning mechanisms at work when a language is created match the ones that shape it as it passes through generations of learners? We examine this through iconicity: a symbol is iconic when its form resembles what it represents. In spoken language iconicity is rare — the word *dog* doesn't look or sound like a dog — but in mature sign languages it is everywhere. Is that because iconicity helps create a language, or because it helps learners?
+
+    We elicited 350 everyday signs from older and younger NSL signers. Most (87%) are iconic in some way, suggesting iconicity is useful for getting a language started; handling forms are the most common type (35%). The proportion of iconic signs has stayed stable, but their degree of iconicity has changed: 40% of signs became less iconic, while only 2% became more so. This points to different roles for adults and children — coining words versus learning and passing them on. Next we are asking whether different types of iconicity (embodied vs. object) change at different rates.
+  publications:
+    - "Pyers, J., A. Senghas, E. Plançon, C. Zola, and N. Reynoso (2016). The differential role of iconicity in the creation and maintenance of an emerging sign language lexicon. Poster, Linguistic Society of America Annual Meeting, Washington, DC."
+    - "Zola, C., and N. Reynoso (2015). Iconicity in Nicaraguan Sign Language. Poster, Summer Research Institute, Barnard College."
+
+- slug: numerosity
+  title: "Numbers and Numerosity"
+  status: current
+  image: "numerositypicture.jpg"
+  summary: >-
+    Is living in a numerate culture enough to understand exact number, or do
+    you need a count list? NSL signers offer a rare natural test.
+  images: ["Numbers Fig1.jpg", "Numbers Fig2.png"]
+  body: |
+    This project examines how number signs emerged in Nicaraguan Sign Language, and how learning number language helps people develop core number concepts. In typical development a memorized count list (one, two, three…) plays an essential role. But what if you never learned one? Is experience with money or dice enough? Previous studies of languages without number words involved only non-numerate cultures. Deaf Nicaraguan adults all live in a richly numerate culture but differ in whether number signs existed when they were children — letting us separate the two factors.
+
+    ### How number signs emerged
+
+    Before 1990, number signs varied widely and were highly iconic, with one finger per unit: six fingers for six, all ten for ten, ten twice for twenty. In the early 1990s they rapidly standardized into a one-handed system that is quicker, smaller, and less iconic. As a result, today's adolescents learned the one-handed system as children; younger adults learned the two-handed system first; and older adults learned neither as children — some learned to count later, some never did.
+
+    ### Number language and number concepts
+
+    Adults without a recitable count list could not accurately track quantities presented in sequence: a numerate culture alone is not enough. A memorized sequence of number symbols is required — though even an unconventional or highly iconic one will do, and people who learned number signs as adults can succeed, if with more errors. Surprisingly, some adults without a count list could judge the exact value of large sets in certain situations, suggesting the count sequence may not be the only route to understanding number.
+  publications:
+    - "Flaherty, M., and A. Senghas (2011). Numerosity and number signs in deaf Nicaraguan adults. Cognition, 121, 427–436."
+    - "Senghas, A., and S. Katseff (2008). Competing forces behind the form of Nicaraguan Sign Language number signs. SignTyp Conference, University of Connecticut."
+    - "Katseff, S., and A. Senghas (2004). Effects of acquisition on the Nicaraguan Sign Language number lexicon. 29th Boston University Conference on Language Development."

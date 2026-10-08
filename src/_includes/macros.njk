@@ -1,0 +1,30 @@
+{% macro photo(src, name, cls="") %}
+<div class="photo {{ cls }}">
+  {%- if src %}<img src="{{ src | img }}" alt="{{ name }}" loading="lazy" onerror="this.remove()">{% endif -%}
+  <span class="initials" aria-hidden="true">{{ name | initials }}</span>
+</div>
+{% endmacro %}
+
+{% macro projectTile(p) %}
+<a class="project-tile" href="/research/{{ p.slug }}/">
+  <div class="tile-img">{% if p.image %}<img src="{{ p.image | img }}" alt="" loading="lazy" onerror="this.remove()">{% endif %}</div>
+  <h3>{{ p.title }}</h3>
+  <p>{{ p.summary }}</p>
+</a>
+{% endmacro %}
+
+{% macro pub(p) %}
+<li class="pub">
+  <span class="pub-authors">{{ p.authors }}</span>
+  <span class="pub-year">({{ p.year }}).</span>
+  <span class="pub-title">{{ p.title }}.</span>
+  {% if p.venue %}<em class="pub-venue">{{ p.venue }}.</em>{% endif %}
+  {%- if p.pdf or p.doi or p.url %}
+  <span class="pub-links">
+    {%- if p.pdf %}<a class="pdf" href="/assets/files/papers/{{ p.pdf }}">PDF</a>{% endif %}
+    {%- if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}
+    {%- if p.url %}<a href="{{ p.url }}">Link</a>{% endif %}
+  </span>
+  {%- endif %}
+</li>
+{% endmacro %}

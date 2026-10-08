@@ -1,0 +1,16 @@
+{
+  "name": "barnard-ladr-website",
+  "version": "1.0.0",
+  "description": "Website for the Language Acquisition and Development Research Lab at Barnard College",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "js-yaml": "^5.4.3",
+    "markdown-it": "^15.0.2"
+  },
+  "type": "module",
+  "private": true
+}

@@ -1,0 +1,24 @@
+---
+layout: base.njk
+title: Research
+description: Research projects of the Barnard LADR Lab.
+---
+{% from "macros.njk" import projectTile %}
+<header class="page-head">
+  <h1>Research</h1>
+  <p class="lede">Nicaraguan Sign Language lets us watch, across generations of signers, how a language takes on structure, and what having language does for thinking.</p>
+</header>
+
+<div class="project-grid">
+  {% for p in projects | where("status", "current") %}{{ projectTile(p) }}{% endfor %}
+</div>
+
+{% set past = projects | where("status", "past") %}
+{% if past.length %}
+<section>
+  <h2>Past projects</h2>
+  <div class="project-grid">
+    {% for p in past %}{{ projectTile(p) }}{% endfor %}
+  </div>
+</section>
+{% endif %}

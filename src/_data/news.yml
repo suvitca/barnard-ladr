@@ -1,0 +1,74 @@
+# ─────────────────────────────────────────────────────────────
+#  IN THE NEWS — newest first. Add new items at the TOP.
+#
+#  - outlet: "Name of publication"
+#    year: 2026
+#    title: "Headline or short description"
+#    url: "https://..."
+#    image: "thumbnail.jpg"   # optional, file in src/assets/img/
+# ─────────────────────────────────────────────────────────────
+
+- outlet: "Barnard News"
+  year: 2020
+  title: "Professor Ann Senghas publishes paper on language learning patterns"
+  url: "https://www.barnard.edu/news/professor-ann-senghas-publishes-paper-language-learning-patterns"
+
+- outlet: "Barnard Magazine"
+  year: 2014
+  title: "A Language Grows Up"
+  url: "https://barnard.edu/magazine/winter-2014/language-grows"
+  image: "barnardmag-thumbnail.jpg"
+
+- outlet: "Cornelia Street Café"
+  year: 2014
+  title: "Public talk in the Cornelia Street Café science series"
+  url: "http://www.corneliastreetcafe.com/list.asp?sdate=2/2/2014&from_cal=0"
+  image: "cornelia-thumbnail.jpg"
+
+- outlet: "The Economist"
+  year: 2013
+  title: "Johnson language blog on sign language"
+  url: "http://www.economist.com/blogs/johnson/2013/03/sign-language"
+  image: "economist2013-thumbnail.jpg"
+
+- outlet: "SFARI"
+  year: 2011
+  title: "Viewpoint: False-belief tasks are distinct from theory of mind"
+  url: "https://sfari.org/news-and-opinion/viewpoint/2011/false-belief-tasks-are-distinct-from-theory-of-mind"
+  image: "sfari-thumbnail.jpg"
+
+- outlet: "Radiolab"
+  year: 2010
+  title: "New Words, New World"
+  url: "http://www.radiolab.org/story/91730-new-words-new-world/"
+  image: "radiolab-thumbnail.jpg"
+
+- outlet: "The Economist"
+  year: 2004
+  title: "On the emergence of Nicaraguan Sign Language"
+  url: "http://www.economist.com/node/2441743"
+  image: "economist-thumbnail.jpg"
+
+- outlet: "The New York Times"
+  year: 2004
+  title: "Science Times feature on Nicaraguan Sign Language"
+  url: "http://www.nytimes.com/2004/09/21/science/21sign.html"
+  image: "nytimeswade-thumbnail.jpg"
+
+- outlet: "Nature News"
+  year: 2004
+  title: "News coverage of the lab's Science paper"
+  url: "http://www.nature.com/news/2004/040913/full/news040913-19.html"
+  image: "nature-thumbnail.jpg"
+
+- outlet: "NPR Science Friday"
+  year: 2004
+  title: "Radio segment on Nicaraguan Sign Language"
+  url: "http://www.npr.org/templates/story/story.php?storyId=3924349"
+  image: "nprsciencefriday-thumbnail.jpg"
+
+- outlet: "The New York Times Magazine"
+  year: 1999
+  title: "Magazine feature on Nicaraguan Sign Language"
+  url: "http://www.nytimes.com/library/magazine/home/19991024mag-sign-language.html"
+  image: "nytimes-thumbnail.jpg"
