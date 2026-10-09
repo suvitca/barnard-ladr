@@ -51,7 +51,7 @@ You can do all of this in a web browser on github.com:
    bash scripts/copy-old-site-files.sh
    git add src/assets && git commit -m "Copy images from old site" && git push
    ```
-   Until you do this, images load from the old site's address.
+   (Already done: the photos and CV are in `src/assets/`. Only needed again if you add files to the old site.)
 
 Optional: to use a custom domain (e.g. `ladr.barnard.edu`), add it under **Settings → Pages → Custom domain** and ask Barnard IT to point the domain at GitHub Pages. Links are relative, so the site works at any address.
 
