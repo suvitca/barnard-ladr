@@ -48,7 +48,7 @@ description: Current and former members of the Barnard LADR Lab, and our collabo
       <div>
         <h3>{{ p.name }}</h3>
         <p class="role">{{ p.role }}{% if p.years %}, {{ p.years }}{% endif %}</p>
-        {% if p.now %}<p>{{ p.now }}</p>{% endif %}
+        {% if p.now %}<p>{{ p.now }}</p>{% elif p.summary %}<p>{{ p.summary }}</p>{% endif %}
       </div>
     </article>
   {% endfor %}

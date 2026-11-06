@@ -45,8 +45,9 @@
     of Science participant and is a fellow of the Association for
     Psychological Science.
 
+# ── Former lab members (newest first) ────────────────────────
 - name: "Ezra Plançon, M.A."
-  group: current
+  group: former
   role: "Lab Manager"
   photo: "plancon-forweb.jpg"
   email: "eplancon@barnard.edu"
@@ -63,7 +64,7 @@
     focused on emoji use in text messages among deaf youth.
 
 - name: "Amber Martin, Ph.D."
-  group: current
+  group: former
   role: "Postdoctoral Fellow"
   photo: "ambershortbio.jpg"
   email: "amartin@barnard.edu"
@@ -82,7 +83,7 @@
     rotation) of signers and non-signers.
 
 - name: "Caroline Zola"
-  group: current
+  group: former
   role: "Undergraduate Research Assistant"
   photo: "carolineshortbio2.jpg"
   email: "cez2109@barnard.edu"
@@ -94,7 +95,7 @@
     2015, working on the Iconicity and Spatial Language and Cognition projects.
 
 - name: "Charlotte Quincoses"
-  group: current
+  group: former
   role: "Undergraduate Research Assistant"
   photo: "charlotteshortbio.jpg"
   email: "cq2174@barnard.edu"
@@ -103,7 +104,6 @@
     illness affects teen development, especially among Latin American
     populations.
 
-# ── Former lab members (newest first) ────────────────────────
 - { name: "Jessica Nadel", group: former, role: "Lab Manager", years: "2013–2015", photo: "nadel-forweb.jpg", now: "Barnard '13; then a PhD student in Clinical Psychology at LIU Brooklyn." }
 - { name: "Claudia Ortuno", group: former, role: "Radcliffe Institute Research Partner", years: "2014–2015", photo: "claudia-forweb.jpg", now: "Harvard College '16; worked with Dr. Senghas during her Radcliffe Fellowship year." }
 - { name: "Illan Gonen", group: former, role: "Graduate Research Assistant", years: "2013–2014", photo: "gonen-forweb.jpg", now: "PhD student in Semitic Linguistics, University of Cambridge." }
